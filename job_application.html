@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Job Application Form</title>
+</head>
+<body>
+
+<h1>Online Job Application Form</h1>
+
+    <form method="post">
+
+    <fieldset><legend>Personal Information</legend>
+
+        <label for="name">Full Name:</label><br>
+    <input type="text" id="name" placeholder="Enter your full name" required>
+<br>
+<br>
+        <label for="nid">NID Number:</label><br>
+        <input type="text" id="nid" placeholder="Enter your NID number" required>
+    <br>
+    <br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <br>
+        <br>
+
+    <label for="phone">Phone No:</label><br>
+        <input type="tel" id="phone" placeholder="Enter your phone number" required>
+        <br>
+        <br>
+
+        <label for="dob">DOB:</label><br>
+        <input type="date" id="dob" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender">
+        <label for="other">Other</label>
+        <br>
+        <br>
+    
+    
+    
+    </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset><legend>Job Information</legend>
+
+        <label for="position">Position Applied:</label>
+            
+        <br>
+
+        <select id="position">
+            <option selected>Software Dev</option>
+            <option>Web designer</option>
+            <option>Network Engineer</option>
+            <option>Database Administrator</option>
+            <option>ITSupport Officer</option>
+
+        
+        </select>
+            <br>
+            <br>
+
+            <label for="experience">Experience Level:</label>
+            
+            <br>
+
+            <select id="experience">
+                <option>Fresher</option>
+                <option>1-2 Years</option>
+                <option>3-5 Years</option>
+                <option>More Than 5 Years</option>
+
+
+            </select>
+
+
+        </fieldset>
+
+        <br>
+
+        <br>
+
+        <fieldset>
+        
+        <legend>Skills</legend>
+
+            <label>Select Technical Skills:</label>
+            
+            <br>
+
+            <input type="checkbox" id="html">
+            <label for="html">HTML</label>
+            <br>
+
+            <input type="checkbox" id="css">
+            <label for="css">CSS</label>
+            <br>
+
+            <input type="checkbox" id="js">
+            <label for="js">JavaScript</label>
+            <br>
+
+            <input type="checkbox" id="python">
+            <label for="python">Python</label>
+            <br>
+
+            <input type="checkbox" id="sql">
+            <label for="sql">SQL</label>
+
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset>
+        <legend>Education Information</legend>
+
+        <label for="qualification">Highest Qualification:</label><br>
+        <input type="text" id="qualification" placeholder="Enter qualification" required>
+        <br>
+        <br>
+
+            <label for="college">University/College:</label><br>
+            <input type="text" id="college" placeholder="Enter institution name" required>
+            <br>
+            <br>
+
+            <label for="year">Graduation Year:</label>
+            
+            <br>
+
+            <input type="number" id="year" placeholder="Enter graduation year" required>
+
+
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Additional Information</legend>
+
+            <label for="resume">UploadResume/CV:</label><br>
+            <input type="file" id="resume"><br><br>
+
+            <label for="cover">Cover Letter:</label><br>
+            <textarea id="cover" rows="5" cols="40" maxlength="300" placeholder="Maximum 300 characters"></textarea>
+            <br>
+            <br>
+
+            <label for="address">Current Adress:</label>
+            
+            <br>
+            
+            <textarea id="address" rows="3" cols="40" placeholder="Enter your current address"></textarea>
+        
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+    <footer>
+        <p>COPYWRITED----ALL CREDITS CLAIMED by @ahnafhasan---CREATOR </p>
+    </footer>
+
+
+</body>
+</html>
